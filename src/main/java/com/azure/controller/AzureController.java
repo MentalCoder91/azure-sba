@@ -15,12 +15,12 @@ public class AzureController {
 	@Autowired
 	private AzureRepository repo;
 
-//	@GetMapping("/azure")
-//	public String helloAzure() {
-//
-//		return "Welcome to Azure Web apps this is an app deployed";
-//
-//	}
+	@GetMapping("/azure")
+	public String helloAzure() {
+
+		return "Welcome to Azure Web apps this is an app deployed";
+
+	}
 
 	@GetMapping("/products")
 	public List<Product> getProducts() {
