@@ -22,12 +22,18 @@ public class AzureController {
 
 	}
 
-	@GetMapping("/products")
-	public List<Product> getProducts() {
-		
+//	@GetMapping("/products")
+//	public List<Product> getProducts() {
+//
+//
+//		return repo.findAll();
+//
+//	}
 
-		return repo.findAll();
 
+	@GetMapping("/version")
+	public String getDeploy() {
+		return "version 2";
 	}
 
 }
