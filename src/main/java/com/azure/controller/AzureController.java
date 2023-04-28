@@ -29,7 +29,7 @@ public class AzureController {
 
 	}
 
-	@GetMapping("/version")
+	@GetMapping("/version1")
 	public String getDeploy() {
 		return "version 2";
 	}
