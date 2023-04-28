@@ -47,7 +47,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'sba-web-azure'
+          app-name: 'sba-azure-app'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_448D68B9596345D0BD4E5188099D4165 }}
           package: '*.jar'
