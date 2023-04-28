@@ -15,7 +15,7 @@ public class AzureController {
 	@Autowired
 	private AzureRepository repo;
 
-	@GetMapping("/azure")
+	@GetMapping("/hello")
 	public String helloAzure() {
 
 		return "Welcome to Azure Web apps this is an app deployed";
